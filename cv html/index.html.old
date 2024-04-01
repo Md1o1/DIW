@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head>
+<html lang="PT-br">
+    <head>
+    <meta charset="UTF-8"
+</head>
+<body style="background-color:powderblue;">
+    <img src="cv_foto.jpg" alt="Foto de Perfil" width="450" height="600">
+    <h1>Kelvin Mendes</h1>
+    <p>Belo Horizonte, Minas Gerais, Brasil.</p>
+    <h2><b>Experiência</b></h2>
+    <p><b>Service Desk Technician</b><br>
+      <b>  Hatch</b><br>
+        Feb 2020 - Present (4 years 2 months) <br>
+        > International internal customer service using Zendesk, for T1 and T2 in the Service Delivery area,
+        operating in more than 150 countries, both remotely and in person.<br>
+        > Administration tasks in AD and Azure AD in a hybrid environment.<br>
+        > Provision of Induction training for new employees.<br>
+        > Automation of administrative functions and inventory management using PowerShell.<br>
+        > Office 365 user accounts management, using Endpoint, MS authenticator.<br>
+        > Machine Imaging using MS Autopilot and LAN Boot (PXE).<br>
+        > Inventory management, quotation and acquisition.<br>
+        > General maintenance on HP’s desktops and laptops.<br>
+        > Contract management, support of supplies and warranties.<br>
+        > Support for implementation and maintenance of RICOH’s Streamline Secure Print technology on local
+        printers, alongside internal team and the printer provider company.<br>
+        > Implementation and maintenance of Logitech's video conferencing solution.<br>
+        > Implementation and maintenance of virtual reality solution using Vive pro 2.<br>
+        > Administration of user access and privileges within the SAP system.<br>
+        > Setting up CCTV cameras and equipment.<br>
+        </p>
+        <p>
+            <b>Menor Aprendiz</b><br>
+        <b>Hatch</b><br>
+        Sep 2018 - Feb 2020 (1 year 6 months)</p>
+
+</body>
+
+
+</html>

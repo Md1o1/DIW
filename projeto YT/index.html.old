@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Youtube</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="yt_icon.png" type="image/icon type">
+  </head>
+  <body>
+    <header>
+      <div>Início</div>
+      <div>Shorts</div>
+      <div>Inscrições</div>
+  </header>
+  <aside>
+      <div>Seu Canal</div>
+      <div>Histórico</div>
+      <div>Seus Vídeos</div>
+  </aside>
+  <main>
+      <div>Video Player</div>
+      <div>Descrição do Vídeo</div>
+      <div>Comentários</div>
+      <form>
+        <div>
+            <label for="username">Usuário:</label>
+            <input type="text" id="username" name="username" required>
+        </div>
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <div>
+            <label for="comment">Comentário:</label>
+            <textarea id="comment" name="comment" required></textarea>
+        </div>
+        <button type="enviar">enviar</button>
+    </form>
+  </main>
+  </body>
+</html>
