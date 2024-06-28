@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header class="p-3 bg-dark text-white">
+        <div class="container">
+            <div class="d-flex justify-content-between">
+                <h1>Kelvin Mendes</h1>
+                <nav>
+                    <a href="#section1" class="text-white me-3">Seção 1</a>
+                    <a href="#section2" class="text-white me-3">Seção 2</a>
+                    <a href="#section3" class="text-white me-3">Seção 3</a>
+                    <a href="#section4" class="text-white">Seção 4</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Seção 1: Perfil -->
+    <section id="section1" class="container my-5">
+        <div class="row">
+            <div class="col-md-3">
+                <img id="profile-avatar" class="img-fluid rounded-circle" alt="Foto do Perfil">
+            </div>
+            <div class="col-md-9">
+                <h2 id="profile-name">Nome</h2>
+                <p id="profile-bio">Bio</p>
+                <div>
+                    <a id="profile-email" href="mailto:kelvinmendes8@gmail.com"><img src="assets/img/gmail.png" alt="Email"></a>
+                    <a id="profile-linkedin" href="https://www.linkedin.com/in/kelvin-mendes/"><img src="assets/img/linkedin.png" alt="LinkedIn"></a>
+                    <a id="profile-github" href="https://github.com/Md1o1"><img src="assets/img/github.png" alt="GitHub"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção 2: Repositórios -->
+    <section id="section2" class="container my-5">
+        <h2>Repositórios</h2>
+        <div id="repos" class="row">
+            <!-- Repositórios serão adicionados dinamicamente aqui -->
+        </div>
+    </section>
+
+    <!-- Seção 3: Carrossel -->
+    <h1>GitHub Profiles Carousel</h1>
+    <div id="profileCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner" id="carousel-inner">
+            <!-- Items will be injected here by JavaScript -->
+        </div>
+    </div>
+    <div class="carousel-controls">
+        <button id="prevBtn" class="btn btn-primary">Previous</button>
+        <button id="nextBtn" class="btn btn-primary">Next</button>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Seção 4: Colegas -->
+    <section id="section4" class="container my-5">
+        <h2>Colegas</h2>
+        <div id="colleagues" class="row">
+            <!-- Colegas serão adicionados dinamicamente aqui -->
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
